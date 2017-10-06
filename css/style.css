@@ -10,3 +10,20 @@
   color: black;
   font-family: bebasbeue;
 }
+
+/* Contact page styling */
+.sscontainer {
+  height: 60%;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.ssleft {
+  float: left;
+  margin-right: 100px;
+
+ }
+
+.ssleft.wide{
+  margin-right: 220px;
+}

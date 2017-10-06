@@ -1,28 +1,73 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link href="css/style.css" rel="stylesheet">
-    <title>Contact Us</title>
+
+<head>
+  <meta charset="utf-8">
+  <link href="css/style.css" rel="stylesheet">
+  <title>Contact Us</title>
 </head>
 
 <body>
-      <section id="page">
-        <header>
-          <img class="myimage" src= "images/brainlogo.jpg">
-          <h1 class="myhead">Queen Village Neurological Foundation </h1>
-        </header>
-      <nav>
-        <ul>
-          <li> <a href="index.html" class="btn">Home</a></li>
-          <li><a href="contact.html" class="btn">Contact</a></li>
-          <li><a href="donations.html" class="btn">Donations</a></li>
-          <li><a href="learn.html" class="btn">Learn</a></li>
-        </ul>
-      </nav>
-      <main>Main</main>
-      <footer>Footer</footer>
-    </section>
+  <section id="page">
+    <header>
+      <img class="myimage" src="images/brainlogo.jpg">
+      <h1 class="myhead">Queen Village Neurological Foundation </h1>
+    </header>
+    <nav>
+      <ul>
+        <li> <a href="index.html" class="btn">Home</a></li>
+        <li><a href="contact.html" class="btn">Contact</a></li>
+        <li><a href="donations.html" class="btn">Donations</a></li>
+        <li><a href="learn.html" class="btn">Learn</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="sscontainer">
+        <div class="ssbox">
+          <h1>Contact us</h1>
+            <p>We are here to answer any questions you may have about the wide range of nuerological disorders.<p>
+            <p>Up to 1 billion people, nearly one in six of the world’s population, suffer from neurological disorders, from Alzheimer and Parkinson disease, strokes, multiple sclerosis and epilepsy to migraine, brain injuries and neuroinfections, with some 6.8 million dying of the maladies each year, according to a <a href="">report</a> issued by the United Nations.<p>
+            <p>Please fill our the below form to recieve our information package</p>
+            <form action="/action_page.php">
+              <div class="ssleft">First name: <br>
+                <input type="text" name="firstname" placeholder="First Name">
+              </div>
+              <div>Last name:<br>
+                <input type="text" name="lastname" placeholder="Last Name">
+                <br>
+                <br>
+                <div class="ssleft">Email: <br>
+                  <input type="email" name="email">
+                </div>
+                <div class=>Address:<br>
+                  <input type="text" name="address">
+                </div>
+                <br>
+                <div class="ssleft wide">State: <br>
+                  <select>
+                    <option value="pennsylvania">PA</option>
+                    <option value="newjersey">NJ</option>
+                    <option value="delaware">DE</option>
+                    <option value="newyork">NY</option>
+                </select>
+                </div>
+                <div class>Country: <br>
+                  <select>
+                    <option value="usa">USA</option>
+                    <option value="canda">Canada</option>
+                    <option value="mexico">Mexico</option>
+                    <option value="ireland">Ireland</option>
+                  </select>
+                </div>
+                <br>
+                <input type="submit" value="Submit">
+              </form>
+            </div>
+        </div>
+    </main>
+    <footer>Footer</footer>
+  </section>
 </body>
-    </html>
+
+</html>
