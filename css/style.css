@@ -11,6 +11,85 @@
   font-family: bebasbeue;
 }
 
+/* Index Main Styling */
+#page {
+  display: grid;
+  width: 100%;
+  height: 500px;
+  grid-template-areas: "head head"
+                       "nav  main"
+                       "nav  foot";
+  grid-template-rows: 15% 1fr 10%;
+  grid-template-columns: 20% 1fr;
+}
+
+#page > header {
+  grid-area: head;
+  background-color: #8ca0ff;
+}
+
+#page > nav {
+  grid-area: nav;
+  background-color: #ffa08c;
+}
+
+#page > main {
+  grid-area: main;
+  background-color: #ffff64;
+}
+
+#page > footer {
+  grid-area: foot;
+  background-color: #8cffa0;
+}
+
+.main-grid {
+  border: 5px solid black;
+  background-color: rgba(0, 0, 0, 0.2);
+  grid-area: main;
+  display: grid;
+  grid-template-rows: repeat(11, 1fr);
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.org-mission {
+  grid-area: 2 / 2 / span 4 / span 10
+}
+
+.org-mission-title {
+  grid-area: 2 / 2 / span 2 / span 4;
+}
+
+.org-mission-body {
+  grid-area: 2 / 6 / span 4 / span 6;
+}
+
+.org-vision {
+  grid-area: 7 / 2 / span 4 / span 10
+}
+
+.org-vision-title {
+  grid-area: 7 / 2 / span 2 / span 4;
+}
+
+.org-vision-body {
+  grid-area: 7 / 6 / span 4 / span 6;
+}
+
+.title {
+  margin: 0 auto;
+  color: black;
+  font-family: 'Anton', sans-serif;
+  font-size: 40pt;
+  font-weight: bolder;
+}
+
+.body {
+  margin: 0 auto;
+  color: blue;
+  font-family: 'Bellefair', serif;
+  font-size: 12pt;
+
 /* Contact page styling */
 .sscontainer {
   height: 60%;
