@@ -1,3 +1,4 @@
+
 #page {
   display: grid;
   width: 100%;
@@ -28,3 +29,9 @@
   grid-area: foot;
   background-color: #8cffa0;
 }
+
+/* ================ Generic CSS================ */
+body {
+background-image: url(/nueronimage.jpg)
+}
+
