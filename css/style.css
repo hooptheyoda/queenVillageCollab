@@ -32,7 +32,14 @@
   grid-area: nav;
   background-color: #ffa08c;
 }
+/* SEAN NAV BAR STYLING */
+#page nav ul li{
+ list-style-type: none;
+ margin-bottom: 20px;
+ margin-left: -20px;
+}
 
+/* SEAN NAV BAR STYLING END*/
 #page > main {
   grid-area: main;
   background-color: #ffff64;
