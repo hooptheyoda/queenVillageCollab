@@ -33,10 +33,18 @@
   background-color: #ffa08c;
 }
 /* SEAN NAV BAR STYLING */
+
 #page nav ul li{
  list-style-type: none;
  margin-bottom: 20px;
  margin-left: -20px;
+}
+
+#page nav ul li a{
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 10px 0;
 }
 
 /* SEAN NAV BAR STYLING END*/
