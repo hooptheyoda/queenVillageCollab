@@ -47,6 +47,10 @@
   padding: 10px 0;
 }
 
+#page nav ul li a.active {
+  background-color: grey;
+}
+
 /* SEAN NAV BAR STYLING END*/
 #page > main {
   grid-area: main;
