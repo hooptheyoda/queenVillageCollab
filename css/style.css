@@ -48,7 +48,7 @@
 }
 
 #page nav ul li a.active {
-  background-color: grey;
+  background-color: rgba(224,224,224,1);
 }
 
 #page nav ul li a:hover:not(.active) {
