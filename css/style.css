@@ -35,7 +35,9 @@
 
 #page > main {
   grid-area: main;
-  background-color: #ffff64;
+  background-image: url("../css/nueronimage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #page > footer {
