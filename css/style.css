@@ -102,9 +102,9 @@
 
 .body {
   margin: 0 auto;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.8);
   font-family: 'Bellefair', serif;
-  text-shadow: 0px 2px 0 rgba(0, 0, 0, 0.4), -1px 0px 0 white;
+  text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.8);
   font-size: 12pt;
 }
 
