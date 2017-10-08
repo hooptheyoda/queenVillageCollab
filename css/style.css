@@ -57,6 +57,7 @@
   filter: blur(1px);
   background: inherit;
   box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.2), 5px 5px 5px rgba(0, 0, 0, 0.7);
+  transition: background-color 5s;
 }
 
 .org-mission-title {
@@ -67,11 +68,16 @@
   grid-area: 2 / 6 / span 4 / span 6;
 }
 
+.org-mission:hover {
+  background-color: rgba(41, 79, 109, 0.50);
+}
+
 .org-vision {
   grid-area: 7 / 2 / span 4 / span 10;
   filter: blur(1px);
   background: inherit;
   box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.2), 5px 5px 5px rgba(0, 0, 0, 0.7);
+  transition: background-color 5s;
 }
 
 .org-vision-title {
@@ -80,6 +86,10 @@
 
 .org-vision-body {
   grid-area: 7 / 6 / span 4 / span 6;
+}
+
+.org-vision:hover {
+  background-color: rgba(41, 79, 109, 0.50);
 }
 
 .title {
