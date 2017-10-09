@@ -140,14 +140,13 @@
 	transition: 200ms background-color;
 }
 
-/*
+
 .donation-box .amount .button:hover {
 	background-color: #393939;
 }
-*/
+
 .donation-box .amount .button.selection {
 	background-color: #393939;
-
 }
 
 
