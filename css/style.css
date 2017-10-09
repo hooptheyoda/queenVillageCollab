@@ -5,6 +5,7 @@
   margin-left: 30px;
   width: 45px;
   height: 45px;
+  border-radius: 10px 25px;
 }
 
 .header,h1 {
@@ -66,6 +67,10 @@
 	position: absolute;
 	cursor: pointer;
 	font-weight: 800;
+}
+
+.donation-box .donate-button:hover{
+  background-color: green;
 }
 
 .donation-box .fields {
@@ -135,13 +140,16 @@
 	transition: 200ms background-color;
 }
 
+/*
 .donation-box .amount .button:hover {
 	background-color: #393939;
 }
-
-.donation-box .amount .button.selected {
+*/
+.donation-box .amount .button.selection {
 	background-color: #393939;
+
 }
+
 
 .donation-box .amount .button input {
 	min-width: 34px;
@@ -211,13 +219,13 @@
   font-weight: bold;
   color: rgba(0, 0, 0, 0.65);
 
-  -webkit-transition: 0.15s ease-out;
-  -moz-transition: 0.15s ease-out;
-  -o-transition: 0.15s ease-out;
-  transition: 0.15s ease-out;
+  -webkit-transition: 0.20s ease-out;
+  -moz-transition: 0.20s ease-out;
+  -o-transition: 0.20s ease-out;
+  transition: 0.20s ease-out;
 }
 .switch-input:checked + .switch-label-on ~ .switch-selection {
-  left: 114px;
+  left: 180px;
 }
 
 .switch-selection {
@@ -232,10 +240,10 @@
   border-radius: 3px;
   background-color: #8ca0ff;
 
-  -webkit-transition: left 0.15s ease-out;
-  -moz-transition: left 0.15s ease-out;
-  -o-transition: left 0.15s ease-out;
-  transition: left 0.15s ease-out;
+  -webkit-transition: left 0.20s ease-out;
+  -moz-transition: left 0.20s ease-out;
+  -o-transition: left 0.20s ease-out;
+  transition: left 0.20s ease-out;
 }
 
 .checkboxes {
